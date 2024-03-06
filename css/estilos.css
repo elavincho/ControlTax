@@ -6,6 +6,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Esto hace que la pantalla se vea blanca si el tamaño de la pantalla es superior a 480px */
+@media (width > 480px) {
+    * {
+       display: none;
+    }
+}
+
 /* Header */
 
 @media (max-width: 480px) {
@@ -101,7 +108,6 @@
 }
 
 /* Fin Header */
-
 
 
 
